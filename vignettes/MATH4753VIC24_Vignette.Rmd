@@ -18,10 +18,28 @@ knitr::opts_chunk$set(
 library(MATH4753VIC24)
 ```
 
+# Introduction
+This is a package designed for MATH 4753 at University of Oklahoma. This was made in Spring 2024 and is comprised of functions required for the course. This specific package was composed by Victor Sandi.
+
+Below I will be running four of the packages for this course as specified by the requiremenst for the R Package assignment.
+
 # First Function
+```{r}
+smoothlineplot(data=fire,x_input=fire$DISTANCE,y_input=fire$DAMAGE,col_input=fire$DISTANCE)
+```
 
 # Second Function
+```{r}
+mymlnorm(x=c(5,7,7,8,10),mu=seq(5,10,length=1000),sig=seq(0.1,4,length=1000),lwd=2,labcex=1)
+```
 
 # Third Function
+```{r}
+myboot2(x=c(1,1,1,2,3,4,5))
+```
 
 # Fourth Function
+```{r}
+myncurve(mu=10,sigma=5, a=6)
+```
+
