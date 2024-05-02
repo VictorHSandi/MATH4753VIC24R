@@ -6,6 +6,8 @@
 #' @param ... extra parameters
 #'
 #' @return a list of mu and sigma
+#' @importFrom graphics contour
+#' @importFrom stats sd
 #' @export
 #'
 #' @examples mymlnorm(x=c(5,7,7,8,10),mu=seq(5,10,length=1000),sig=seq(0.1,4,length=1000),lwd=2,labcex=1)
