@@ -1,7 +1,7 @@
 Package: MATH4753VIC24
 Type: Package
 Title: MATH4753 Lab functions
-Version: 0.1.0
+Version: 0.2.0
 Author: Victor Sandi
 Maintainer: Victor Sandi <victor.h.sandi-1@ou.edu>
 Description: MATH4753 Lab functions and other selections.
